@@ -1,0 +1,134 @@
+.hero-sec img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.content{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 8px;
+}
+.about{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.jobs-row th{
+    border: 1px solid grey;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.data-row td{
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(even){
+    background-color: aliceblue;
+}
+
+.header{
+    padding: 8px;
+}
+
+#logo{
+    height: 30px;
+ }
+
+ #desc{
+    display: flex;
+    padding: 0 8px;
+    padding-right: 8px;
+    text-align: center;
+    align-items: center;
+ }
+ #img{
+    width: 50%;
+    padding: 0;
+    margin: 4px;
+ }
+
+ h2{
+    text-align: center;
+ }
+
+#job {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 8px;
+}
+
+.apply{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+#job p{
+    margin-top: 0;
+}
+
+#footer{
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#f-links{
+    list-style: none;
+}
+
+#f-links li{
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright{
+    color: grey;
+}
+
+#app{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.form-grp{
+    margin: 16px;
+}
+
+#app-form label{
+    font-weight: 600;
+}
+
+#app-form input,select,textarea{
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.form-grp textarea{
+    width: 80%;
+    font-family: sans-serif;
+}
+.form-grp input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+.form-grp input[type="submit"]{
+    background-color: rgb(102, 102, 227);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
